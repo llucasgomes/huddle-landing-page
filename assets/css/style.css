@@ -1,0 +1,102 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background-image: url(/assets/image/bg-desktop.svg);
+    background-color: var(--Violet);
+    padding: 10px 50px 20px 50px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 10%;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.caixa {
+    margin-top: 10px;
+    width: 50%;
+    height: 40rem;
+    
+
+}
+
+.conteudo .caixa img {
+    width: 100%;
+}
+
+.conteudo .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.6rem;
+}
+
+.conteudo .informacoes h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 3.9rem;
+    margin: 1.5rem 0;
+}
+
+.conteudo .informacoes p {
+    
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    margin: 0 0 1.5rem 0;
+    /* font-weight: 300; */
+}
+
+.conteudo .informacoes .botao {
+    background-color: white;
+    color: var(--Violet);
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.rodape .midia-social{
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape .midia-social .rede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 5rem;
+height: 5rem;
+background-color:transparent;
+border: 0.2rem solid white ;
+border-radius: 50%;
+
+}
+
+.rodape .midia-social a{
+    
+    color: black;
+}
+
+.rodape .midia-social i{
+    font-size: 2.5rem;
+    color: white;
+    border-radius: 50%;
+}
